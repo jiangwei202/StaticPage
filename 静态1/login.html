@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录或注册</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/reset.css">
+    
+</head>
+<body>
+    <header>
+        <div class="header-center">
+            <div class="header-left">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="header-right">
+                <a href="index.html">返回首页</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="banner">
+        <div class="banner-center">
+            <div class="banner-left">
+                <div class="word">
+                    <p class="title">易教务系统</p>
+                    <p class="content">一站式排课、学生成绩分析、师生档案创建等</p>
+                </div>
+                <div class="picture">
+                    <img src="img/banner-login.png" alt="">
+                </div>
+            </div>
+            <div class="login">
+                <div class="login-top">
+                    <div class="login-top-left">
+                        扫码登录
+                    </div>
+                    <div class="login-top-right">
+                        账号登录
+                    </div>
+                </div>
+                <div class="login-bottom-left">
+                    <div class="picture">
+                    <img src="img/ti.jpg">
+                    <p class="login-title">打开<a href="javascript:;">微信</a>扫码登录</p>
+                    <div class="words">
+                        <a class="newregister" id="QRregister" href="javascript:;">新用户注册</a>
+                        <a class="newforget" id="QRforget" href="javascript:;">忘记密码</a>
+                    </div>
+                </div>
+                </div>
+                <div class="login-bottom-right">
+                    <div class="information">
+                        <div class="content">
+                            <div class="content-lable">学校编号</div> 
+                            <input type="text" placeholder="请输入手机号" class="ww"> 
+                        </div>
+                        <div class="content">
+                            <div class="content-lable">用户名</div>
+                            <input type="text" placeholder="请输入用户名" class="ww"> 
+                        </div>
+                        <div class="content">
+                            <div class="content-lable">密码</div>
+                            <input type="text" placeholder="请输入密码" class="ww"> 
+                        </div>
+                        <div class="content">
+                            <div class="content-lable">登录身份</div>
+                            <img class="arrows" src="./img/arrows.png" alt="">
+                            <input class="ww selectinput" type="text" id="selectinput" value="" placeholder="请选择登录身份">
+                            <select id="identity" class="ww select">
+                                <option value="管理员">我是管理员</option>
+                                <option value="教师">我是教师</option>
+                            </select> 
+                        </div>
+                        
+                        <div class="content">
+                            <div class="content-lable">验证码</div>
+                            <div class="verification">
+                                <input type="text" placeholder="请输入验证码" class="ww">
+                                <div class="verification-pt">
+                                    <img src="./img/verification.png">
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="sign-in">点击登录</div>
+                        <div class="words">
+                            <a class="newregister" id="NUMregister" href="javascript:;">新用户注册</a>
+                            <a class="newforget" id="NUMforget" href="javascript:;">忘记密码</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="login-register register">
+                <div class="login-name">
+                    新用户注册
+                </div>
+                <div class="login-middle">
+                    <div class="login-middle-content">
+                        <img src="img/ti.jpg" alt="">
+                        <p class="login-word">打开<a href="#">微信</a>扫码注册</p>
+                        <div class="return">
+                            <a href="#">返回登录</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="login-register forget">
+                <div class="login-name">
+                    忘记密码
+                </div>
+                <div class="login-middle">
+                    <div class="login-middle-content">
+                        <img src="img/ti.jpg" alt="">
+                        <p class="login-word">打开<a href="#">微信</a>找回密码</p>
+                        <div class="return">
+                            <a href="#">返回登录</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="js/jQuery3.5.1.js"></script>
+<script src="js/login.js"></script>
+</html>
